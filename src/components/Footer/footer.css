@@ -1,0 +1,10 @@
+.footer {
+    font-size: 14px;
+}
+
+.footer-line {
+    border-top: 2px solid #eeeeee;
+    width: 90%;
+    margin: 18px auto;
+    padding-top: 18px;
+}

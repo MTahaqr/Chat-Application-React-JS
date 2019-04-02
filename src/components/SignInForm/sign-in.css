@@ -1,0 +1,37 @@
+.sign-in h4 {
+	font-size: 17px;
+}
+
+.sign-in .form-group {
+    display: block  !important;
+    max-width: 60%;
+}
+
+.aside-logo-wrapper {
+    text-align: center;
+}
+
+.aside-logo {
+    width: 40%;
+    height: 40%; 
+}
+
+.avatar {
+	overflow: hidden;
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+

@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.section {
+  width: 90%;
+  margin: 18px auto;
+}
+
+
+.heading-section {
+  padding-bottom: 6px;
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-top: 9px;
+}
+
+.h-line {
+  border-bottom: 2px solid #eeeeee;
+  width: 60%;
+  z-index: -2;
+  margin-bottom: 15px;
+}

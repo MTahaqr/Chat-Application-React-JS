@@ -1,0 +1,45 @@
+{
+    "users": {
+        "displayName": "displayName",
+        "email": "email",
+        "uid": "uid",
+        "logStatus": "online/offline",
+        "imageUrl": "http://www.userimage.com",
+        "gender": "gender",
+        "relationStatus": "relationStatus",
+
+        "unSeenMessages": [
+            {
+                "chatUid": "chatUid",
+                "time": "time of message"
+            }
+        ],
+
+        "recent_convos": [
+            {
+                "chatUid": "chatUid",
+                "timestamp": "timestamp"
+            }
+        ],
+
+        "chats": [
+            {
+                "name": "name",
+                "uid": "uid",
+                "lastMessage": "lastMessage",
+                "isSeen": false,
+                "conversation": [
+                    {
+                        "me": "my message",
+                        "time": "time of message"
+                    },
+                    {
+                        "sender": "sender messsage",
+                        "time": "time of message"
+                    }
+                ]
+            }
+        ]
+
+    }
+}
